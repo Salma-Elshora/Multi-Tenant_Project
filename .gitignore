@@ -2,5 +2,27 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/Student_Grades_System/.vs
+
+[Bb]in/
+[Oo]bj/
+
+
+.vs/
+
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+*.VC.db
+*.VC.VC.opendb
+
+
+*.log
+
+
+.DS_Store
+Thumbs.db
+desktop.ini
