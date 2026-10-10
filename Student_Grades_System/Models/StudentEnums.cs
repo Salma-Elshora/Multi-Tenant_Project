@@ -24,4 +24,14 @@ namespace Student_Grades_System.Models
             ArtificialIntelligence,
             CyberSecurity
         }
+
+        public enum LetterGrade
+        {
+            A,
+            B,
+            C,
+            D,
+            F
+        }
+    
 }
