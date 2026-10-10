@@ -8,19 +8,14 @@ namespace Student_Grades_System.Models
 {
     internal class SubjectGrade
     {
+        public int SubjectID { get; set; }
 
-        // SubjectGrade Class
-        //
-        // Responsibility:
-        // This class will store the grade information for one subject.
-        //
-        // Expected data:
-        // 1. Subject Name.
-        // 2. Student Grade.
-        //
-        // Implementation:
-        // The properties and any required methods will be added later.
+        public string SubjectName { get; set; } = string.Empty;
 
+        public double Grade { get; set; }
 
+        public double MaxGrade { get; set; }
+
+        public int CreditHours { get; set; }
     }
 }

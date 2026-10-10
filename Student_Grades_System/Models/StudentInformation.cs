@@ -8,19 +8,14 @@ namespace Student_Grades_System.Models
 {
     internal class StudentInformation
     {
+        public int StudentID { get; set; }
 
-        // StudentInformation Class
-        //
-        // Responsibility:
-        // This class will store the basic information of each student.
-        //
-        // Expected data:
-        // 1. Student ID.
-        // 2. Student Name.
-        //
-        // Implementation:
-        // The properties and any required methods will be added later.
+        public string StudentName { get; set; } = string.Empty;
 
+        public int AcademicYear { get; set; }
 
+        public string Department { get; set; } = string.Empty;
+
+        public string Email { get; set; } = string.Empty;
     }
 }
