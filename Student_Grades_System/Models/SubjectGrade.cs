@@ -16,15 +16,12 @@ namespace Student_Grades_System.Models
 
         public double MaxGrade { get; private set; }
 
-        public int CreditHours { get; private set; }
-
-        public SubjectGrade(int subjectID,string subjectName,double grade,double maxGrade,int creditHours)
+        public SubjectGrade(int subjectID,string subjectName,double grade,double maxGrade)
         {
             SubjectID = subjectID;
             SubjectName = subjectName;
             Grade = grade;
             MaxGrade = maxGrade;
-            CreditHours = creditHours;
         }
     }
 }
